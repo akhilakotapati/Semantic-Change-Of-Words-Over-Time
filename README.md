@@ -1,0 +1,8 @@
+# Semantic-Change-Of-Words-Over-Time
+
+In this paper, we have implemented several models to analyze statistically significant lin- guistic shifts. We have analyzed how the co- occurrence changes over time, how the state of the entity is influenced by this change and how this corresponds to the events occurring in same period.
+First, we have implemented word embed- ding models such as Word2Vec and GloVe. Through this approach, we compute the vector representation of words, from the given cor- pus, for each time period. Then, vector spaces are projected on to one unified coordinate sys- tem. Second, we have implemented a gener- ative probabilistic model to find relationships among data, text documents. This is executed using a Topic modeling method called, Latent Dirichlet Allocation.
+Through these analysis we would like to show that the Topic model infer word embedding trajectories are more interpretable and lead to higher predictive likelihoods than compet- ing static models that are trained separately on
+2Data Analytics Engineering George Mason University,USA vkunapar@gmu.edu
+3Data Analytics Engineering George Mason University,USA vreddich@gmu.edu
+time slices.
